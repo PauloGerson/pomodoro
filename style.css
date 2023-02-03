@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container span{
+    font-size: 6rem;
+    
+    width: 10rem;
+   
+}
+
+.container button{
+    cursor: pointer;
+    width: 9rem;
+    height: 4rem;
+    padding: 10px;
+}
+
