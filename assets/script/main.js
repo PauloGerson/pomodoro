@@ -3,7 +3,7 @@ let btn = document.querySelector("button");
 let clock;
 let count = 0
 let hor = 25;
-let min = 0
+let min = 60
 
 function process(){
    min--
